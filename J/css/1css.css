@@ -1,0 +1,30 @@
+.texto-sobre-video h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    /* Puedes ajustar el tamaño de la fuente y otros estilos según tus preferencias */
+}
+
+.texto-sobre-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro transparente */
+    padding: 20px; /* Espaciado interno para el texto */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Sombra blanca */
+}
+
+.texto-sobre-video h1 {
+    margin: 0 0 10px; /* Elimina el margen predeterminado del h1 y agrega un espacio en la parte inferior */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.texto-sobre-video p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    line-height: 1.5; /* Ajusta el espaciado entre líneas para mejorar la legibilidad */
+}
+
+

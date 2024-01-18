@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/1css.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Arial', sans-serif;
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            /* Para enviar el video detrás de otros elementos */
+        }
+
+        .texto-sobre-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            font-size: 2em;
+            /* Puedes ajustar el tamaño de la fuente y otros estilos según tus preferencias */
+        }
+    </style>
+</head>
+
+<body>
+    <video src="material/golden_-_48569 (1080p).mp4" autoplay preload muted loop></video>
+    <div class="texto-sobre-video">
+        <h1>Mis metas contigo son...</h1>
+        <p>Ser feliz a tu lado en nuestra propia casa y amarnos siempre. 
+        </p>
+    </div>
+
+    <!-- Tu contenido aquí -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
